@@ -49,9 +49,10 @@ Because the dataset is not big enough, so data augmentation will be conducted. T
 
 ### Training and Testing Model 
 
-The data in this project is medical image, so the model that commonly use is convolutional neural network (CNN). Here, a custom CNN model is built and also the data will also be trained using a pre-trained model, MobileNet. The architecture of the CNN model can be seen in the picture below. 
+The data in this project is medical image, so the model that commonly use is convolutional neural network (CNN). Here, a custom CNN model is built and also the data will also be trained using a pre-trained model, MobileNet. The architecture of the CNN and MobileNet model can be seen in the pictures below. 
 
 ![cnn](images/cnn_arch.png)
+![cnn](images/mobilenet_arch.png)
 
 Both model will be trained with categorical crossentropy loss function and adam optimizer. The CNN was trained using 100 epochs and MobileNet model was trained using 50 epochs. Both training results can be seen in the pictures below, respectively.
 
