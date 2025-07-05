@@ -76,7 +76,7 @@ The confusion matrix for both CNN and MobileNet testing result are shown in the 
 
 Other than that, the classification report for both models is also shown in the pictures below. 
 
-![cnn_report](images/cnn_ report.png)
+![cnn_report](images/cnn_report.png)
 
 ![mobilenet _ report](images/mobilenet_report.png)
 
